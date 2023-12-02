@@ -1,0 +1,12 @@
+﻿<Window x:Class="ChikaAlert.OverlayWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:gif="clr-namespace:WpfAnimatedGif;assembly=WpfAnimatedGif"
+        Title="ChikaAlert" Height="300" Width="300" WindowStyle="None" AllowsTransparency="True" Background="Transparent"
+        Icon="icon.ico"
+        >
+    <Grid>
+        <Image x:Name="gifImage" Stretch="Uniform" MaxWidth="800" />
+        <TextBlock Text="EMERGANCY MEETING" Foreground="Red"  FontSize="80" VerticalAlignment="Center" HorizontalAlignment="Center" Panel.ZIndex="2"/>
+    </Grid>
+</Window>
