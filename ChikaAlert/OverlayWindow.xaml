@@ -7,6 +7,6 @@
         >
     <Grid>
         <Image x:Name="gifImage" Stretch="Uniform" MaxWidth="800" />
-        <TextBlock Text="EMERGANCY MEETING" Foreground="Red"  FontSize="80" VerticalAlignment="Center" HorizontalAlignment="Center" Panel.ZIndex="2"/>
+        <TextBlock Text="EMERGENCY MEETING" Foreground="Red"  FontSize="80" VerticalAlignment="Center" HorizontalAlignment="Center" Panel.ZIndex="2"/>
     </Grid>
 </Window>
